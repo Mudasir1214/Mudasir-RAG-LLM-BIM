@@ -1,40 +1,8 @@
-# Phase 3: Automated OSHA-Compliant Guardrail Generation
+# Phase 3: Fall Hazard Prevention and Control
 
 ## Executive Summary
 
 Phase 3 implements an intelligent, geometry-driven system for automatically generating OSHA-compliant guardrails and fall protection systems for detected hazards. This module analyzes the 3D building geometry to identify unprotected edges, openings, and stairways, then programmatically creates properly dimensioned guardrail assemblies that meet international safety standards (OSHA 1926.502, JGJ80-2016).
-
-## Research Context and Problem Formulation
-
-### The Guardrail Design Challenge
-
-Manual guardrail design in BIM environments faces critical challenges:
-
-1. **Geometric Complexity**: Building perimeters often feature non-convex shapes, re-entrant corners, and complex edge topologies
-2. **Wall Awareness**: Existing walls may provide partial protection (parapet walls ≥1070mm), requiring intelligent guardrail placement
-3. **Opening Coverage**: Floor holes and voids require perimeter protection, not just edge protection
-4. **Stairway Protection**: Stairs span multiple levels with varying slopes, requiring adaptive railing systems
-5. **Code Compliance**: Must satisfy multi-dimensional requirements (height, spacing, load capacity)
-
-### Regulatory Framework
-
-**OSHA 1926.502(b) - Guardrail Systems**:
-- Top rail height: 42 inches ± 3 inches (1067mm - 1168mm)
-- Mid rail height: Midpoint between top rail and walking surface
-- Toe board: Minimum 3.5 inches (89mm) height
-- Post spacing: Maximum 8 feet (2438mm)
-- Load capacity: Withstand 200 pounds (890N) applied force
-
-**JGJ80-2016 (China)**:
-- Protective railing height: ≥1.2m (1200mm)
-- Intermediate rail: Required at 0.6m
-- Kick plate: ≥180mm height
-
-**Implementation Standard** (This System):
-- Top rail: 1100mm (balances OSHA and JGJ requirements)
-- Mid rail: 550mm (half of top rail)
-- Post spacing: 2000mm (conservative, <OSHA maximum)
-- Toe board: 100mm (exceeds minimums)
 
 ## Technical Architecture
 
@@ -702,83 +670,6 @@ Guardrail Generation Results:
 | Toe Board | ≥89mm (OSHA) | 100mm | ✓ Pass |
 | Parapet Recognition | ≥1070mm (OSHA) | 1070mm threshold | ✓ Pass |
 
-## Research Contributions
-
-### Novel Methodologies
-
-1. **Mesh Topology Boundary Extraction**
-   - First BIM system to use mesh-based edge detection
-   - Handles non-convex building shapes (L, U, courtyard)
-   - Detects inner loops (openings, atriums)
-   - Improvement: 100% accuracy vs. 60% for convex hull
-
-2. **Wall-Aware Inset Direction**
-   - Prevents guardrail clipping into existing walls
-   - Adaptive based on wall proximity and parapet height
-   - Novel loop-type-aware classification (outer vs. inner)
-
-3. **Hierarchy-Aware Stairway Detection**
-   - Checks parent IfcStair containers for sibling railings
-   - Reduces false positives by 85% vs. direct-only methods
-   - Addresses real-world IFC export patterns
-
-### Comparison to Prior Work
-
-| Feature | This System | Song et al. (2018) | Choi et al. (2022) |
-|---------|-------------|-------------------|-------------------|
-| Non-Convex Perimeters | ✓ Mesh topology | ✗ Convex hull | ✓ Polygon decomposition |
-| Inner Loop Detection | ✓ Automatic | ✗ Manual specification | ✓ Requires annotation |
-| Wall Awareness | ✓ Proximity + height | ✗ Not considered | ✓ Boolean intersection |
-| Stair Railings | ✓ Hierarchy-aware | ✓ Direct only | ✗ Not implemented |
-| Code Compliance | ✓ OSHA + JGJ | ✓ Local only | ✓ OSHA only |
-
-## Limitations and Future Work
-
-### Current Limitations
-
-1. **Static Load Analysis**
-   - Generates geometry, not structural verification
-   - Cannot compute 200-pound load capacity
-   - **Future**: FEM integration for structural validation
-
-2. **Post Foundation Connections**
-   - Posts placed on surfaces, no anchor embedment
-   - **Future**: Automatic anchor point generation
-
-3. **Material Specifications**
-   - Generic "steel" material assignment
-   - **Future**: Detailed material properties (yield strength, coating)
-
-### Planned Enhancements
-
-1. **Curved Railings**
-   - Current: Straight segment approximations
-   - Future: True circular/spline rail paths
-
-2. **Modular Component Library**
-   - Predefined railing systems (cable, glass panel, mesh)
-   - BIM object library integration
-
-3. **Cost Estimation**
-   - Automatic bill of materials (BOM)
-   - Material cost and labor hour estimates
-
-## Conclusion
-
-Phase 3 successfully demonstrates automated generation of OSHA-compliant guardrail systems using advanced geometric analysis. The mesh topology approach enables accurate boundary extraction for complex building shapes, while wall-aware logic ensures practical, interference-free placement.
-
-The system achieves 100% perimeter coverage for unprotected edges while respecting existing protection (walls, railings). Generated IFC models are directly usable in construction documentation and coordination workflows.
-
-## References
-
-1. OSHA. (2020). *1926.502(b) - Guardrail Systems*. US Department of Labor.
-2. Ministry of Housing (China). (2016). *JGJ80-2016: Technical Code for Safety of Forms*.
-3. Song, L., et al. (2018). "Automated guardrail placement in BIM". *Automation in Construction*, 89, 81-95.
-4. Choi, J., et al. (2022). "Geometric reasoning for fall protection design". *Advanced Engineering Informatics*, 51, 101478.
-5. BuildingSMART. (2021). *IFC4.3 - IfcRailing, IfcMember Specifications*.
-6. ISO. (2016). *ISO 14122-3: Safety of machinery - Permanent means of access*.
-
----
 
 **Author**: PhD Research in Construction Safety Automation  
 **Last Updated**: January 14, 2026  
