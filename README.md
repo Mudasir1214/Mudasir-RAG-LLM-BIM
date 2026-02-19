@@ -1,10 +1,11 @@
-# [Phase 1: Automated Hazard Detection in IFC-Based Building Models](./01_Fall_Hazard_Identification)
+# RAG-LLM-Augmented BIM for Automated Fall Hazard Identification and Prevention
 
-## Executive Summary
+## Abstract
 
-Phase 1 implements an automated fall hazard detection system for Building Information Modeling (BIM) environments using the Industry Foundation Classes (IFC) schema. This module performs comprehensive spatial analysis of IFC building models to identify construction safety hazards in accordance with international safety regulations including OSHA, JGJ80-2016, GB10000-88, and Hong Kong Labour Department standards.
+Current Automated Rule-Checking (ARC) methods assess BIM models against safety requirements but use hard-coded rules and manual processes that are time-consuming and error-prone. Recent Large-Language Models (LLMs) with Retrieval-Augmented Generation (RAG) enable automated interpretation of regulations; however, prior studies mainly address code compliance, provide limited treatment of fall hazards, struggle with geometric reasoning, and focus on guidance over prevention. This paper proposes RAG-LLM-augmented BIM for automated fall hazard identification and prevention. Fall regulations were structured using ontology to establish geometric, semantic, and spatial relationships with BIM elements. Detected hazards were visualized using severity- and hazard-based color coding, and OSHA-compliant guardrails were installed with rationale-based advisories. Detection engine achieved 97.7% geometric success in hazard detection, with 100% visualization and guardrail placement accuracy. The pipeline showed 2.4s response time, 100% retrieval performance, and 0.985 precision. This study advances Design-for-Safety (DfS) techniques and positions RAG-LLM-augmented BIM as an enabler of construction safety management.
 
-## Research Context and Motivation
+## Keywords
+Retrieval augmented generation, Large language models, Building information modeling, Automated rule checking, Design for Safety, Fall hazards.
 
 ### Problem Statement
 
