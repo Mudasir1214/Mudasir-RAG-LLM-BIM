@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-02-18T15:41:17.962055",
+  "total_components": 876,
+  "stair_components": 577,
+  "slab_components": 299,
+  "output_file": "/home/mshifa/Documents/MuddasirHussain/RAG based paper/mudasir-rag-llm-bim/output_data/hazard_prevention_and_control_results/run_20260218_154117/Mudasir-LLM-BIM_UNIFIED_GUARDRAILS.ifc",
+  "features": [
+    "Stair flight guardrails with hierarchy check",
+    "Floor slab perimeter guardrails",
+    "Wall-aware inset direction",
+    "Inner loop detection (openings)",
+    "Loop-type-aware classification",
+    "Continuous rail generation",
+    "OSHA compliance",
+    "Wall parallelism check - skips edges protected by parallel walls"
+  ]
+}

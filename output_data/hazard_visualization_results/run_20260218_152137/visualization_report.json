@@ -1,0 +1,2967 @@
+{
+  "timestamp": "2026-02-18T15:21:37.490558",
+  "source_ifc": "/home/mshifa/Documents/MuddasirHussain/RAG based paper/mudasir-rag-llm-bim/input_data/Mudasir-LLM-BIM.ifc",
+  "hazards_file": "/home/mshifa/Documents/MuddasirHussain/RAG based paper/mudasir-rag-llm-bim/output_data/hazard_identification_results/run_20260218_152101/hazards_detected.json",
+  "total_hazards": 134,
+  "colored_hazards": 134,
+  "failed_hazards": 0,
+  "hazard_details": [
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11046.14,
+        "Y": -8835.48,
+        "Z": 3925.0
+      },
+      "success": true,
+      "colored_element_id": "1wXML16I3nUYqQqUJqcBlT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11046.14,
+        "Y": -8835.48,
+        "Z": 11925.0
+      },
+      "success": true,
+      "colored_element_id": "049ipEa_hZB1gwTlXwng5I",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 2044.91,
+        "Y": -6840.93,
+        "Z": 11925.0
+      },
+      "success": true,
+      "colored_element_id": "2vH10CpiI2iK6m5QY5_cpe",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3320.39,
+        "Y": 8908.7,
+        "Z": 11925.0
+      },
+      "success": true,
+      "colored_element_id": "2yfBO8kqG9kmLv6uBAsAaf",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -1253.16,
+        "Y": -8191.21,
+        "Z": 15925.0
+      },
+      "success": true,
+      "colored_element_id": "25hCrYM0ZGV2KXGuAiSuxv",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5727.88,
+        "Y": 2630.2,
+        "Z": 15925.0
+      },
+      "success": true,
+      "colored_element_id": "39fIS2C50o7CXjzqXlwBYJ",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "FloorOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11046.14,
+        "Y": -8835.48,
+        "Z": 15925.0
+      },
+      "success": true,
+      "colored_element_id": "1fYXHMLqt9AwyHZy6b_FMI",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3558.1,
+        "Y": 10262.7,
+        "Z": 1525.0
+      },
+      "success": true,
+      "colored_element_id": "0YGpRl96jrQloOFxg7C$T$",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5672.12,
+        "Y": 10262.7,
+        "Z": 1525.0
+      },
+      "success": true,
+      "colored_element_id": "2ACPYKjA7_acLlcd8Mvx_P",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 44.91,
+        "Y": 10262.7,
+        "Z": 1450.0
+      },
+      "success": true,
+      "colored_element_id": "29DlPjhxauyNeTQXgS$ctL",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 5064.66,
+        "Y": 10262.7,
+        "Z": 1498.24
+      },
+      "success": true,
+      "colored_element_id": "3spmmbhUGzMH9Egko4o2Fg",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 7723.52,
+        "Z": 1216.67
+      },
+      "success": true,
+      "colored_element_id": "21ivBtkP6JX8sRGC$s9EFl",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 7723.52,
+        "Z": 3650.0
+      },
+      "success": true,
+      "colored_element_id": "21ivBtkP6JX8sRGC$s9EFl",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 7723.52,
+        "Z": 6083.33
+      },
+      "success": true,
+      "colored_element_id": "21ivBtkP6JX8sRGC$s9EFl",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": -7332.3,
+        "Z": 1600.0
+      },
+      "success": true,
+      "colored_element_id": "1JcdOB0hgspjlnLvs57bhp",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": -7332.3,
+        "Z": 5650.0
+      },
+      "success": true,
+      "colored_element_id": "2Ch6GQ9FAqvWC9XooYgbX5",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 2818.1,
+        "Z": 1352.03
+      },
+      "success": true,
+      "colored_element_id": "1hjrT5D3PsC1RxwTBV2FPf",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 2246.51,
+        "Z": 5650.0
+      },
+      "success": true,
+      "colored_element_id": "2C4gp0T5imecTOjE7laFX5",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": 3389.69,
+        "Z": 5650.0
+      },
+      "success": true,
+      "colored_element_id": "0D8JxgoA2ruohDmJ9$HbnV",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": -2469.8,
+        "Z": 1425.0
+      },
+      "success": true,
+      "colored_element_id": "2bLLa3RnMMrTHHGnOlyu0Q",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": -3032.3,
+        "Z": 5650.0
+      },
+      "success": true,
+      "colored_element_id": "32KVCyncQx7ty1QFYZ9iqK",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "WallOpening",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7544.91,
+        "Y": -1907.3,
+        "Z": 5650.0
+      },
+      "success": true,
+      "colored_element_id": "3XwJI5RvF0lwLATRBAgZQv",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 4603.41,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 22,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 2572.41,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 23,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 541.41,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 24,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -1489.59,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 25,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3520.59,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 26,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5551.59,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 27,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7582.59,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 28,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9613.59,
+        "Y": 10317.7,
+        "Z": 4000.0,
+        "Edge": "North",
+        "EdgeIndex": 29,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4nT",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9613.59,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 2,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7582.59,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 3,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5551.59,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 4,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3520.59,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 5,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -1489.59,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 6,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 541.41,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 7,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 2572.41,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 8,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 4603.41,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 9,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 6634.41,
+        "Y": -9857.3,
+        "Z": 8000.0,
+        "Edge": "South",
+        "EdgeIndex": 10,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": -8893.55,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 11,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": -6866.05,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 12,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": -4838.55,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 13,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": -2811.05,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 14,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": -783.55,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 15,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": 1243.95,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 16,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": 3271.45,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 17,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": 5298.95,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 18,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": 7326.45,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 19,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 7599.91,
+        "Y": 9353.95,
+        "Z": 8000.0,
+        "Edge": "East",
+        "EdgeIndex": 20,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 6634.41,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 21,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 4603.41,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 22,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 2572.41,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 23,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 541.41,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 24,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -1489.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 25,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3520.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 26,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5551.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 27,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7582.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 28,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9613.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 29,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11644.59,
+        "Y": 10317.7,
+        "Z": 8000.0,
+        "Edge": "North",
+        "EdgeIndex": 30,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 9353.95,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 31,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 7326.45,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 32,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 5298.95,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 33,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 3271.45,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 34,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 1243.95,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 35,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -783.55,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 36,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -2811.05,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 37,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -4838.55,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 38,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -6866.05,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 39,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -8893.55,
+        "Z": 8000.0,
+        "Edge": "West",
+        "EdgeIndex": 40,
+        "TotalMarkers": 40
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mb",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 9353.95,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 1,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 7326.45,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 2,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 5298.95,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 3,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 3271.45,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 4,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 1243.95,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 5,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -783.55,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 6,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -2811.05,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 7,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -4838.55,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 8,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -6866.05,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 9,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -8893.55,
+        "Z": 12000.0,
+        "Edge": "West",
+        "EdgeIndex": 10,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11573.42,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 11,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9400.09,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 12,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7226.75,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 13,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5053.42,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 14,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -2880.09,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 15,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -706.75,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 16,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 1466.58,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 17,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 3639.91,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 18,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 5813.25,
+        "Y": -9857.3,
+        "Z": 12000.0,
+        "Edge": "South",
+        "EdgeIndex": 19,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 6849.91,
+        "Y": -8837.91,
+        "Z": 12000.0,
+        "Edge": "East",
+        "EdgeIndex": 20,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 6849.91,
+        "Y": -6699.11,
+        "Z": 12000.0,
+        "Edge": "East",
+        "EdgeIndex": 21,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 6849.91,
+        "Y": -4560.32,
+        "Z": 12000.0,
+        "Edge": "East",
+        "EdgeIndex": 22,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 2532.1,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 23,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 506.48,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 24,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -1519.15,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 25,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -3544.77,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 26,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -5570.4,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 27,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7596.02,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 28,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9621.65,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 29,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11647.27,
+        "Y": 10317.7,
+        "Z": 12000.0,
+        "Edge": "North",
+        "EdgeIndex": 30,
+        "TotalMarkers": 30
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mj",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -459.25,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 1,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -2677.59,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 2,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -4895.92,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 3,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7114.25,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 4,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9332.59,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 5,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11550.92,
+        "Y": 10317.7,
+        "Z": 16000.0,
+        "Edge": "North",
+        "EdgeIndex": 6,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 9353.95,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 7,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 7326.45,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 8,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 5298.95,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 9,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 3271.45,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 10,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": 1243.95,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 11,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -783.55,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 12,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -2811.05,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 13,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -4838.55,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 14,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -6866.05,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 15,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -12610.09,
+        "Y": -8893.55,
+        "Z": 16000.0,
+        "Edge": "West",
+        "EdgeIndex": 16,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -11550.92,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 17,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -9332.59,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 18,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -7114.25,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 19,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -4895.92,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 20,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -2677.59,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 21,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -459.25,
+        "Y": -9857.3,
+        "Z": 16000.0,
+        "Edge": "South",
+        "EdgeIndex": 22,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": -8893.55,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 23,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": -6866.05,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 24,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": -4838.55,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 25,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": -2811.05,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 26,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": -783.55,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 27,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": 1243.95,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 28,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": 3271.45,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 29,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": 5298.95,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 30,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": 7326.45,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 31,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "UnprotectedSidesAndEdges",
+      "severity": "Critical",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": 599.91,
+        "Y": 9353.95,
+        "Z": 16000.0,
+        "Edge": "East",
+        "EdgeIndex": 32,
+        "TotalMarkers": 32
+      },
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvA4mz",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "Stairway",
+      "severity": "High",
+      "element_id": null,
+      "element_type": null,
+      "location": {},
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvABaW",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "Stairway",
+      "severity": "High",
+      "element_id": null,
+      "element_type": null,
+      "location": {},
+      "success": true,
+      "colored_element_id": "1HdfZJUMf0EhQ4hSrvAATB",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "hazard_type": "Stairway",
+      "severity": "Medium",
+      "element_id": null,
+      "element_type": null,
+      "location": {
+        "X": -6825.38,
+        "Y": 2717.35,
+        "Z": 13247.73
+      },
+      "success": true,
+      "colored_element_id": "2Afsc4qjv0tAavrrzwOuof",
+      "notes": "Successfully colored",
+      "color": [
+        1.0,
+        1.0,
+        0.0
+      ]
+    }
+  ],
+  "statistics": {
+    "total_colored_elements": 8,
+    "total_markers_created": 126,
+    "hazard_type_breakdown": {
+      "UnprotectedSidesAndEdges": 5,
+      "Stairway": 3
+    },
+    "severity_breakdown": {
+      "Critical": 5,
+      "High": 2,
+      "Medium": 1
+    },
+    "color_mapping": {
+      "2422": {
+        "hazard_type": "UnprotectedSidesAndEdges",
+        "severity": "Critical",
+        "color_rgb": [
+          0.65,
+          0.65,
+          0.65
+        ]
+      },
+      "2465": {
+        "hazard_type": "UnprotectedSidesAndEdges",
+        "severity": "Critical",
+        "color_rgb": [
+          0.65,
+          0.65,
+          0.65
+        ]
+      },
+      "2527": {
+        "hazard_type": "UnprotectedSidesAndEdges",
+        "severity": "Critical",
+        "color_rgb": [
+          0.65,
+          0.65,
+          0.65
+        ]
+      },
+      "2629": {
+        "hazard_type": "UnprotectedSidesAndEdges",
+        "severity": "Critical",
+        "color_rgb": [
+          0.65,
+          0.65,
+          0.65
+        ]
+      },
+      "4745": {
+        "hazard_type": "UnprotectedSidesAndEdges",
+        "severity": "Critical",
+        "color_rgb": [
+          0.65,
+          0.65,
+          0.65
+        ]
+      },
+      "3947": {
+        "hazard_type": "Stairway",
+        "severity": "High",
+        "color_rgb": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "4107": {
+        "hazard_type": "Stairway",
+        "severity": "High",
+        "color_rgb": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "4755": {
+        "hazard_type": "Stairway",
+        "severity": "Medium",
+        "color_rgb": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "IFC coloring is element-based: entire elements are colored, not specific edges or sub-regions",
+    "Openings (voids) are complex to color directly; markers may be created instead",
+    "Some IFC viewers may not display colors correctly - recommend using viewers like Solibri, BIMvision, or FreeCAD"
+  ]
+}

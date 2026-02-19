@@ -1,0 +1,1405 @@
+================================================================================
+PHASE 2 - HAZARD VISUALIZATION REPORT
+================================================================================
+
+Generated: 2026-02-18T15:21:37.490558
+Source IFC: /home/mshifa/Documents/MuddasirHussain/RAG based paper/mudasir-rag-llm-bim/input_data/Mudasir-LLM-BIM.ifc
+Hazards File: /home/mshifa/Documents/MuddasirHussain/RAG based paper/mudasir-rag-llm-bim/output_data/hazard_identification_results/run_20260218_152101/hazards_detected.json
+
+--------------------------------------------------------------------------------
+SUMMARY
+--------------------------------------------------------------------------------
+Total Hazards Detected: 134
+Successfully Colored: 134
+Failed to Color: 0
+Success Rate: 100.0%
+
+--------------------------------------------------------------------------------
+STATISTICS
+--------------------------------------------------------------------------------
+Total Elements Colored: 8
+Markers Created: 126
+
+Colored Elements by Hazard Type:
+  - Stairway: 3
+  - UnprotectedSidesAndEdges: 5
+
+Colored Elements by Severity:
+  - Critical: 5 (Color: RGB(1.0, 0.0, 0.0))
+  - High: 2 (Color: RGB(1.0, 0.0, 0.0))
+  - Medium: 1 (Color: RGB(1.0, 1.0, 0.0))
+
+--------------------------------------------------------------------------------
+COLOR LEGEND
+--------------------------------------------------------------------------------
+Critical   - RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+High       - RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+Medium     - RGB(1.0, 1.0, 0.0) (RGB255: (255, 255, 0))
+Low        - RGB(0.0, 1.0, 0.0) (RGB255: (0, 255, 0))
+
+--------------------------------------------------------------------------------
+COLORED HAZARDS SUMMARY
+--------------------------------------------------------------------------------
+Hazard Type               Severity     Element ID      Status    
+--------------------------------------------------------------------------------
+FloorOpening              Critical     1wXML16I3nUYqQ  [OK] Colored
+FloorOpening              Critical     049ipEa_hZB1gw  [OK] Colored
+FloorOpening              Critical     2vH10CpiI2iK6m  [OK] Colored
+FloorOpening              Critical     2yfBO8kqG9kmLv  [OK] Colored
+FloorOpening              Critical     25hCrYM0ZGV2KX  [OK] Colored
+FloorOpening              Critical     39fIS2C50o7CXj  [OK] Colored
+FloorOpening              Critical     1fYXHMLqt9AwyH  [OK] Colored
+WallOpening               Critical     0YGpRl96jrQloO  [OK] Colored
+WallOpening               Critical     2ACPYKjA7_acLl  [OK] Colored
+WallOpening               Critical     29DlPjhxauyNeT  [OK] Colored
+WallOpening               Critical     3spmmbhUGzMH9E  [OK] Colored
+WallOpening               Critical     21ivBtkP6JX8sR  [OK] Colored
+WallOpening               Critical     21ivBtkP6JX8sR  [OK] Colored
+WallOpening               Critical     21ivBtkP6JX8sR  [OK] Colored
+WallOpening               Critical     1JcdOB0hgspjln  [OK] Colored
+WallOpening               Critical     2Ch6GQ9FAqvWC9  [OK] Colored
+WallOpening               Critical     1hjrT5D3PsC1Rx  [OK] Colored
+WallOpening               Critical     2C4gp0T5imecTO  [OK] Colored
+WallOpening               Critical     0D8JxgoA2ruohD  [OK] Colored
+WallOpening               Critical     2bLLa3RnMMrTHH  [OK] Colored
+WallOpening               Critical     32KVCyncQx7ty1  [OK] Colored
+WallOpening               Critical     3XwJI5RvF0lwLA  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+UnprotectedSidesAndEdges  Critical     1HdfZJUMf0EhQ4  [OK] Colored
+Stairway                  High         1HdfZJUMf0EhQ4  [OK] Colored
+Stairway                  High         1HdfZJUMf0EhQ4  [OK] Colored
+Stairway                  Medium       2Afsc4qjv0tAav  [OK] Colored
+
+--------------------------------------------------------------------------------
+DETAILED HAZARD INFORMATION
+--------------------------------------------------------------------------------
+
+[1] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11046.14, Y=-8835.48, Z=3925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1wXML16I3nUYqQqUJqcBlT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[2] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11046.14, Y=-8835.48, Z=11925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 049ipEa_hZB1gwTlXwng5I
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[3] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=2044.91, Y=-6840.93, Z=11925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2vH10CpiI2iK6m5QY5_cpe
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[4] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3320.39, Y=8908.70, Z=11925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2yfBO8kqG9kmLv6uBAsAaf
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[5] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-1253.16, Y=-8191.21, Z=15925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 25hCrYM0ZGV2KXGuAiSuxv
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[6] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5727.88, Y=2630.20, Z=15925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 39fIS2C50o7CXjzqXlwBYJ
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[7] FloorOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11046.14, Y=-8835.48, Z=15925.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1fYXHMLqt9AwyHZy6b_FMI
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[8] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3558.10, Y=10262.70, Z=1525.00
+    Status: [OK] Successfully Colored
+    Colored Element: 0YGpRl96jrQloOFxg7C$T$
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[9] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5672.12, Y=10262.70, Z=1525.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2ACPYKjA7_acLlcd8Mvx_P
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[10] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=44.91, Y=10262.70, Z=1450.00
+    Status: [OK] Successfully Colored
+    Colored Element: 29DlPjhxauyNeTQXgS$ctL
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[11] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=5064.66, Y=10262.70, Z=1498.24
+    Status: [OK] Successfully Colored
+    Colored Element: 3spmmbhUGzMH9Egko4o2Fg
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[12] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=7723.52, Z=1216.67
+    Status: [OK] Successfully Colored
+    Colored Element: 21ivBtkP6JX8sRGC$s9EFl
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[13] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=7723.52, Z=3650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 21ivBtkP6JX8sRGC$s9EFl
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[14] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=7723.52, Z=6083.33
+    Status: [OK] Successfully Colored
+    Colored Element: 21ivBtkP6JX8sRGC$s9EFl
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[15] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=-7332.30, Z=1600.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1JcdOB0hgspjlnLvs57bhp
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[16] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=-7332.30, Z=5650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2Ch6GQ9FAqvWC9XooYgbX5
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[17] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=2818.10, Z=1352.03
+    Status: [OK] Successfully Colored
+    Colored Element: 1hjrT5D3PsC1RxwTBV2FPf
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[18] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=2246.51, Z=5650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2C4gp0T5imecTOjE7laFX5
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[19] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=3389.69, Z=5650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 0D8JxgoA2ruohDmJ9$HbnV
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[20] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=-2469.80, Z=1425.00
+    Status: [OK] Successfully Colored
+    Colored Element: 2bLLa3RnMMrTHHGnOlyu0Q
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[21] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=-3032.30, Z=5650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 32KVCyncQx7ty1QFYZ9iqK
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[22] WallOpening - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7544.91, Y=-1907.30, Z=5650.00
+    Status: [OK] Successfully Colored
+    Colored Element: 3XwJI5RvF0lwLATRBAgZQv
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[23] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=4603.41, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[24] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=2572.41, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[25] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=541.41, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[26] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-1489.59, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[27] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3520.59, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[28] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5551.59, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[29] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7582.59, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[30] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9613.59, Y=10317.70, Z=4000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4nT
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[31] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9613.59, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[32] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7582.59, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[33] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5551.59, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[34] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3520.59, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[35] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-1489.59, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[36] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=541.41, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[37] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=2572.41, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[38] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=4603.41, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[39] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=6634.41, Y=-9857.30, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[40] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=-8893.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[41] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=-6866.05, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[42] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=-4838.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[43] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=-2811.05, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[44] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=-783.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[45] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=1243.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[46] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=3271.45, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[47] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=5298.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[48] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=7326.45, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[49] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=7599.91, Y=9353.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[50] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=6634.41, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[51] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=4603.41, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[52] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=2572.41, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[53] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=541.41, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[54] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-1489.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[55] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3520.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[56] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5551.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[57] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7582.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[58] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9613.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[59] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11644.59, Y=10317.70, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[60] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=9353.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[61] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=7326.45, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[62] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=5298.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[63] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=3271.45, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[64] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=1243.95, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[65] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-783.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[66] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-2811.05, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[67] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-4838.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[68] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-6866.05, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[69] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-8893.55, Z=8000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mb
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[70] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=9353.95, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[71] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=7326.45, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[72] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=5298.95, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[73] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=3271.45, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[74] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=1243.95, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[75] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-783.55, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[76] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-2811.05, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[77] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-4838.55, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[78] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-6866.05, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[79] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-8893.55, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[80] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11573.42, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[81] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9400.09, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[82] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7226.75, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[83] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5053.42, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[84] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-2880.09, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[85] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-706.75, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[86] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=1466.58, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[87] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=3639.91, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[88] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=5813.25, Y=-9857.30, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[89] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=6849.91, Y=-8837.91, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[90] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=6849.91, Y=-6699.11, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[91] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=6849.91, Y=-4560.32, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[92] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=2532.10, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[93] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=506.48, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[94] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-1519.15, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[95] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-3544.77, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[96] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-5570.40, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[97] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7596.02, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[98] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9621.65, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[99] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11647.27, Y=10317.70, Z=12000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mj
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[100] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-459.25, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[101] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-2677.59, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[102] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-4895.92, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[103] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7114.25, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[104] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9332.59, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[105] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11550.92, Y=10317.70, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[106] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=9353.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[107] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=7326.45, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[108] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=5298.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[109] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=3271.45, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[110] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=1243.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[111] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-783.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[112] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-2811.05, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[113] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-4838.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[114] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-6866.05, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[115] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-12610.09, Y=-8893.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[116] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-11550.92, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[117] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-9332.59, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[118] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-7114.25, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[119] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-4895.92, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[120] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-2677.59, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[121] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=-459.25, Y=-9857.30, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[122] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=-8893.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[123] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=-6866.05, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[124] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=-4838.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[125] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=-2811.05, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[126] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=-783.55, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[127] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=1243.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[128] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=3271.45, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[129] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=5298.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[130] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=7326.45, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[131] UnprotectedSidesAndEdges - Critical
+    Element Type: None
+    Element ID: None
+    Location: X=599.91, Y=9353.95, Z=16000.00
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvA4mz
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[132] Stairway - High
+    Element Type: None
+    Element ID: None
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvABaW
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[133] Stairway - High
+    Element Type: None
+    Element ID: None
+    Status: [OK] Successfully Colored
+    Colored Element: 1HdfZJUMf0EhQ4hSrvAATB
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 0.0, 0.0) (RGB255: (255, 0, 0))
+
+[134] Stairway - Medium
+    Element Type: None
+    Element ID: None
+    Location: X=-6825.38, Y=2717.35, Z=13247.73
+    Status: [OK] Successfully Colored
+    Colored Element: 2Afsc4qjv0tAavrrzwOuof
+    Notes: Successfully colored
+    Applied Color: RGB(1.0, 1.0, 0.0) (RGB255: (255, 255, 0))
+
+--------------------------------------------------------------------------------
+LIMITATIONS AND NOTES
+--------------------------------------------------------------------------------
+- IFC coloring is element-based: entire elements are colored, not specific edges or sub-regions
+- Openings (voids) are complex to color directly; markers may be created instead
+- Some IFC viewers may not display colors correctly - recommend using viewers like Solibri, BIMvision, or FreeCAD
+
+--------------------------------------------------------------------------------
+TECHNICAL INFORMATION
+--------------------------------------------------------------------------------
+IFC Color Coding Method: Element-based styling using IfcSurfaceStyle
+Highlight Mode: ELEMENT
+Opening Markers: Enabled
+Color Transparency: 1.0
+
+================================================================================
+END OF REPORT
+================================================================================
