@@ -1,5 +1,3 @@
-RAG-based LLM for BiM
-
 # [Phase 1: Automated Hazard Detection in IFC-Based Building Models](./01_Fall_Hazard_Identification)
 
 ## Executive Summary
