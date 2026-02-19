@@ -1,0 +1,13 @@
+# PASTE YOUR DEEPSEEK API KEY HERE
+#
+# Instructions:
+# 1. Delete this comment block
+# 2. Paste your OpenRouter API key on the first line
+# 3. Save this file
+#
+# Example:
+# sk-or-v1-a2bb85ff9a384759b2913fd74230eb4f
+#
+# Get your API key from: https://openrouter.ai/
+# The GUI will automatically load this key when launched
+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
