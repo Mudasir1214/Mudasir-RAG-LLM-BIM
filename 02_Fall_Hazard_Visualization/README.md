@@ -1,34 +1,8 @@
-# Phase 2: Hazard Visualization and Color-Coding System
+# Phase 2: Fall Hazard Visualization
 
 ## Executive Summary
 
 Phase 2 implements an advanced IFC-based hazard visualization system that transforms the JSON hazard data from Phase 1 into visual, color-coded representations within the building model itself. This module applies research-validated color schemes to IFC elements, enabling intuitive hazard recognition and facilitating stakeholder communication across design teams, safety inspectors, and construction managers.
-
-## Research Context and Theoretical Framework
-
-### The Role of Visualization in Safety Communication
-
-Construction safety communication faces a fundamental challenge: bridging the gap between **analytical hazard data** (tables, spreadsheets, reports) and **spatial comprehension** (where hazards actually exist in 3D space). Research shows that:
-
-- **Visual processing**: Humans process visual information 60,000× faster than text (3M Corporation, 2001)
-- **Color perception**: Color-coded warnings reduce cognitive load by 40% compared to monochrome representations (Wickens et al., 2013)
-- **Spatial context**: 3D visualization improves hazard localization accuracy by 73% (Zhang et al., 2015)
-
-### Color Psychology in Safety Applications
-
-This implementation follows **Table 3: Automated fall hazard detection and visualization strategies** from peer-reviewed literature:
-
-**Hazard-Type-Based Color Scheme** (Primary):
-- **Purple** (Falls from height): Associated with severity and danger in industrial contexts
-- **Blue** (Unprotected edges): Standard for cautionary information (ISO 3864)
-- **Green** (Stairways): Access/egress routes per NFPA color coding
-- **Orange** (Floor openings): High-visibility warning per ANSI Z535
-- **Red** (Wall openings): Maximum urgency (universal danger signal)
-
-**Severity-Based Color Scheme** (Alternative):
-- **Green** (Low): Safe/acceptable conditions
-- **Yellow** (Medium): Caution/monitoring required
-- **Red** (High/Critical): Immediate action required
 
 ## Technical Architecture
 
@@ -682,58 +656,3 @@ Colors validated against:
 - **ANSI Z535**: Safety color code
 - **Human factors testing**: Distinguishability on various displays
 
-## Research Contributions
-
-### Novel Methodologies
-
-1. **Hybrid Visualization Strategy**
-   - Solid elements: Direct color application
-   - Voids/openings: Geometric marker creation
-   - First system to handle both seamlessly
-
-2. **Multi-Tier Element Matching**
-   - ID matching → Location matching → Marker fallback
-   - Resilient to IFC modifications/re-exports
-   - Achieves 100% visualization success rate
-
-3. **Research-Validated Color Coding**
-   - Based on peer-reviewed Table 3 specifications
-   - Optimized for safety perception and cognitive processing
-   - Dual-mode: hazard-type vs. severity
-
-## Limitations and Future Work
-
-### Current Limitations
-
-1. **Static Color Assignment**
-   - Cannot show temporal changes (construction sequence)
-   - Future: 4D color animation
-
-2. **Binary Visibility**
-   - Elements either colored or not
-   - Future: Gradient intensity based on risk level
-
-3. **Limited Annotation**
-   - Colors only, no text labels
-   - Future: SVG/PDF export with annotations
-
-## Conclusion
-
-Phase 2 successfully transforms abstract hazard data into intuitive, color-coded 3D visualizations. The hybrid approach (coloring + marker creation) ensures 100% visualization coverage across all hazard types. The research-validated color scheme (Table 3) optimizes for safety communication effectiveness.
-
-This phase establishes the visual foundation for stakeholder review, enabling design teams and safety inspectors to rapidly identify and prioritize hazard mitigation efforts.
-
-## References
-
-1. 3M Corporation. (2001). *Visual Attention and Information Processing*. Technical Report.
-2. Wickens, C.D., et al. (2013). *Engineering Psychology & Human Performance*. 4th ed.
-3. Zhang, S., et al. (2015). "BIM-based fall hazard identification". *Safety Science*, 72, 31-45.
-4. ISO. (2016). *ISO 3864-1: Safety Colours and Safety Signs*.
-5. ANSI. (2017). *ANSI Z535.1: Safety Color Code*.
-6. BuildingSMART. (2021). *IFC4.3 Specification - Presentation Resources*.
-
----
-
-**Author**: PhD Research in Construction Safety Automation  
-**Last Updated**: January 14, 2026  
-**Version**: 1.0
