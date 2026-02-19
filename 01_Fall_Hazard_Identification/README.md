@@ -1,26 +1,8 @@
-# Phase 1: Automated Hazard Detection in IFC-Based Building Models
+# Phase 1: Fall Hazard Identification
 
 ## Executive Summary
 
 Phase 1 implements an automated fall hazard detection system for Building Information Modeling (BIM) environments using the Industry Foundation Classes (IFC) schema. This module performs comprehensive spatial analysis of IFC building models to identify construction safety hazards in accordance with international safety regulations including OSHA, JGJ80-2016, GB10000-88, and Hong Kong Labour Department standards.
-
-## Research Context and Motivation
-
-### Problem Statement
-
-Construction sites experience the highest rate of fatal accidents among all industries, with falls from height accounting for approximately 33-40% of all construction fatalities globally. Traditional manual safety inspections are:
-- Time-consuming and labor-intensive
-- Subject to human error and inconsistency
-- Conducted reactively rather than proactively during design phase
-- Unable to scale across large, complex building projects
-
-### Proposed Solution
-
-This research implements an automated, geometry-based hazard detection pipeline that:
-1. **Proactively identifies** safety hazards during the design/planning phase
-2. **Quantifies risk** using regulatory threshold compliance metrics
-3. **Generates structured data** for downstream visualization and mitigation planning
-4. **Scales efficiently** across projects of any size or complexity
 
 ## Technical Architecture
 
@@ -680,77 +662,6 @@ Detection Performance:
 4. **Partial protection**: Wall-based edge protection recognition
 5. **Complex geometry**: Non-convex slabs using mesh-based edge extraction
 
-## Research Contributions
-
-### Novel Methodologies
-
-1. **Hierarchy-Aware Stairway Detection**
-   - First implementation to check parent IfcStair containers for sibling railings
-   - Reduces false positives by 85% compared to direct-relationship-only methods
-
-2. **Hybrid Opening Classification**
-   - Combines geometric analysis (aspect ratio) with semantic context (parent type)
-   - Achieves 98% classification accuracy vs. 76% for geometry-only approaches
-
-3. **Quantitative Severity Scoring**
-   - Threshold exceedance ratio provides objective risk ranking
-   - Enables automated prioritization for intervention planning
-
-### Comparison to Existing Systems
-
-| Feature | This System | Zhang et al. (2015) | Kim et al. (2020) |
-|---------|-------------|---------------------|-------------------|
-| Stairway Detection | ✓ Hierarchy-aware | ✗ Direct only | ✓ Spatial proximity |
-| Opening Classification | ✓ Hybrid (geo + semantic) | ✓ Geometry only | ✓ Rule-based |
-| Severity Assessment | ✓ Quantitative ratio | ✗ Binary (yes/no) | ✓ Qualitative (L/M/H) |
-| Multi-unit Support | ✓ Automatic detection | ✗ Manual config | ✓ Schema-based |
-| Edge Detection | ✓ Convex hull + sampling | ✓ Vertex iteration | ✗ Not implemented |
-
-## Limitations and Future Work
-
-### Current Limitations
-
-1. **Convex Hull Simplification**: Non-convex slab perimeters are approximated
-   - **Impact**: May miss interior concave edges
-   - **Mitigation**: Planned mesh topology-based edge extraction
-
-2. **Static Temporal Analysis**: Single-snapshot detection
-   - **Impact**: Cannot detect construction sequence hazards
-   - **Future Work**: 4D BIM integration for phase-based analysis
-
-3. **Guardrail Quality Assessment**: Checks presence, not structural adequacy
-   - **Impact**: Cannot verify load-bearing capacity
-   - **Future Work**: Integration with FEM structural analysis
-
-### Planned Enhancements
-
-1. **Machine Learning Integration**
-   - Train CNN for opening classification using labeled IFC dataset
-   - Expected improvement: 99%+ classification accuracy
-
-2. **Real-Time Monitoring**
-   - Integration with IoT sensors for actual vs. model comparison
-   - Detects unauthorized opening creation or guardrail removal
-
-3. **Regulatory Database Expansion**
-   - Currently supports OSHA, GB, CSSR
-   - Planned: EU directives, Australian WHS, ISO 45001
-
-## Conclusion
-
-Phase 1 establishes a robust, geometry-based foundation for automated construction safety hazard detection. By leveraging the semantic richness of IFC models and implementing advanced spatial analysis algorithms, the system achieves near-perfect precision while maintaining computational efficiency suitable for large-scale projects.
-
-The hierarchical stairway detection and hybrid opening classification methodologies represent novel contributions to the field, addressing limitations in prior research. The structured JSON output format ensures seamless integration with downstream phases (visualization, mitigation planning, LLM advisory).
-
-## References
-
-1. OSHA. (2020). *1926 Subpart M - Fall Protection*. US Department of Labor.
-2. Ministry of Housing (China). (2016). *JGJ80-2016: Technical Code for Safety of Forms in Construction*.
-3. Hong Kong SAR. (2022). *Construction Sites (Safety) Regulations (Cap. 383)*.
-4. Zhang, S., et al. (2015). "BIM-based fall hazard identification and prevention". *Safety Science*, 72, 31-45.
-5. Kim, K., et al. (2020). "Automated construction hazard identification using computer vision". *Automation in Construction*, 115, 103196.
-6. BuildingSMART International. (2021). *IFC4.3 Specification*.
-
 ## Appendix: Code Repository Structure
 
 ```
@@ -766,8 +677,3 @@ Phase_1_Hazard_Detection/
 └── README.md                   # Quick start guide
 ```
 
----
-
-**Author**: PhD Research in Construction Safety Automation  
-**Last Updated**: January 14, 2026  
-**Version**: 1.0 (Production Release)
