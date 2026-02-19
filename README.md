@@ -44,3 +44,14 @@ c) Implemented multithreaded architecture for responsive and real-time processin
 d) Designed session-based data management for traceability and reproducibility.
 e) Generated a unified Master RAG dataset combining outputs from all phases.
 f) Provided an interactive interface for users to query safety insights with full BIM context.
+
+### Note to Readers
+Each phase in this repository contains a dedicated *README* file that provides comprehensive details, including methodology, implementation steps, dependencies, and code execution procedures.
+Users are encouraged to navigate to the respective phase folders:
+- 01_Fall_Hazard_Identification
+- 02_Fall_Hazard_Visualization
+- 03_Fall_Hazard_Prevention_and_Control
+- 04_RAG_Based_LLM_Safety_Advisory
+- 05_Graphical_User_Interface
+
+and follow the instructions provided in their individual README files to successfully run and reproduce the results. These READMEs are designed to ensure clarity, reproducibility, and ease of use for all components of the system.
