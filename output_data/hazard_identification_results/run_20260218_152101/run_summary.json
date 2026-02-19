@@ -1,0 +1,18 @@
+{
+  "run_info": {
+    "timestamp": "20260218_152103",
+    "ifc_file": null,
+    "unit_factor": 1000.0,
+    "processing_time_s": 2.73
+  },
+  "statistics": {
+    "total_elements": 177,
+    "geometry_success_rate": 0.977,
+    "total_hazards": 134
+  },
+  "hazards_by_category": {
+    "Opening hazards": 22,
+    "Elevated work hazards": 109,
+    "Access hazards": 3
+  }
+}
