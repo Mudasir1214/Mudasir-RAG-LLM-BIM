@@ -1,4 +1,4 @@
-# RAG-LLM-Augmented BIM for Automated Fall Hazard Identification and Prevention
+# RAG-LLM-Augmented BIM for Automated Fall Hazard Identification and Prevention during Design
 
 ## Abstract
 
